@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Area de figuras</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1 class="title">AREA DE FIGURAS</h1>
+      <form class="form">
+        <select id="figure">
+          <option selected>Seleccione forma...</option>
+          <option value="square">Cuadrado</option>
+          <option value="rectangle">Rectangulo</option>
+          <option value="triangle">Triangulo</option>
+        </select>
+
+        <div class="input">
+          <input placeholder="Ingrese base" type="number" class="base" disabled />
+          <input placeholder="Ingrese altura" type="number" class="height" disabled />
+        </div>
+
+        <button class="btn" disabled>Calcular</button>
+        <div class="results"></div>
+      </form>
+    </main>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
